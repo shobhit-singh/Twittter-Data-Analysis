@@ -1,11 +1,9 @@
-#------------------------------------------------------------------------------------------------------#
+/*------------------------------------------------------------------------------------------------------#
 # Script Name: DDL
 # Script Designed On: 15/11/2016
 # Script Designed On: 15/11/2016
 # Script Descrption: This script is used for twitter data analytics.
-#------------------------------------------------------------------------------------------------------#
-
-
+#------------------------------------------------------------------------------------------------------*/
 
 CREATE TABLE t_search_staging
 (
@@ -71,8 +69,6 @@ VALUES(@ErrorNumber,@ErrorState,@ErrorSeverity,@ErrorLine,@ErrorProc,
 
    PRINT 'Hello! There is some error, please check last entry in ExceptionTracer table! '
    End
-
-
 
 /*------- Below Code is to Insert the Search Data ...............*/
   DECLARE @GetOutput int;
